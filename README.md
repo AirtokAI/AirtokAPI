@@ -3,7 +3,9 @@
 
 ## Overview
 
-The AirTok AI API provides access to NPC (Non-Player Character) chat functionality with memory retention and knowledge-based responses. This documentation covers all available endpoints, required parameters, and provides example requests.
+The AirTok AI API provides access to a modified chat style interface into AirtokBot, it features memory retention and knowledge-based responses. This documentation covers all available endpoints, required parameters, and provides example requests.
+
+### Important: AirtokBot must be installed into the telegram group for groupId to work.
 
 **Base URL**: `https://app.airtok.ai/api/v1`
 
@@ -43,7 +45,7 @@ Generate a response from the AI assistant based on user input with chat memory.
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
-| groupId | string | Yes | The group identifier (e.g., -1002212916980) |
+| groupId | string | Yes | The telegram group identifier (e.g., -1002212916980) |
 | userPrompt | string | Yes | The user's message or query |
 | userId | string | No | Optional unique identifier for the user. If not provided, a unique ID will be generated |
 
@@ -75,7 +77,7 @@ Same as the regular chat endpoint.
 
 | Parameter | Type | Required | Description |
 |-----------|------|----------|-------------|
-| groupId | string | Yes | The group identifier (e.g., -1002212916980) |
+| groupId | string | Yes | The telegram group identifier (e.g., -1002212916980) |
 | userPrompt | string | Yes | The user's message or query |
 | userId | string | No | Optional unique identifier for the user. If not provided, a unique ID will be generated |
 
@@ -208,4 +210,4 @@ If you need higher limits, please contact our support team.
 
 ## Support
 
-For issues or questions about the API, please contact support at support@airtok.ai
+For issues or questions about the API, please contact support at admin@airtok.ai
