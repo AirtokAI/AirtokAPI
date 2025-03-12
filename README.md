@@ -1,11 +1,11 @@
 
-# AirTok AI API Documentation
+# Airtok AI API Documentation
 
 ## Overview
 
 The AirTok AI API provides access to a modified chat style interface into AirtokBot, it features memory retention and knowledge-based responses. This documentation covers all available endpoints, required parameters, and provides example requests.
 
-### Important: AirtokBot must be installed into the telegram group for groupId to work.
+***Important: AirtokBot must be installed into the telegram group for groupId to work.***
 
 **Base URL**: `https://app.airtok.ai/api/v1`
 
